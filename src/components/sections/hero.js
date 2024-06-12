@@ -11,35 +11,29 @@ const StyledHeroSection = styled.section`
   min-height: 100vh;
   height: 100vh;
   padding: 0;
-
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
     height: auto;
     padding-top: var(--nav-height);
   }
-
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
-
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
     }
   }
-
   h3 {
     margin-top: 5px;
     color: var(--slate);
     line-height: 0.9;
   }
-
   p {
     margin: 20px 0 0;
     max-width: 540px;
   }
-
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
@@ -59,9 +53,9 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Namaste! My name is</h1>;
-  const two = <h2 className="big-heading">Chandrika Deb</h2>;
-  const three = <h3 className="medium-heading">MBA | Marketing Enthusiast | Freelance Blogger</h3>;
+  const one = <h1>Hey there! My name is</h1>;
+  const two = <h2 className="big-heading">Harsh Vardhan Ande</h2>;
+  const three = <h3 className="medium-heading">Software Engineer | B.E. CS | M.S. in SE (ongoing)</h3>;
   const four = (
     <>
       <p>
@@ -69,17 +63,17 @@ const Hero = () => {
       </p>
 
       <p>
-        I am Chandrika Deb, an alumnus of {' '} <a href="http://www.iimrohtak.ac.in">
-        IIM Rohtak</a> {' '} and {' '} <a href="https://www.bitmesra.ac.in">BIT Mesra</a> {' '} currently spearheading impactful marketing initiatives at {' '}
-        <a href="https://www.tatasteel.com">Tata Steel</a>.
+        I'm an alumnus of {' '} <a href="https://www.bits-pilani.ac.in/goa/">
+        BITS Pilani Goa</a> {' '} with 4+ years of experience at {' '} <a href="https://www.flipkart.com/">Flipkart</a> {' '}. I'm currently pursuing my master's degree in Software Engineering at {' '}
+        <a href="https://www.sjsu.edu/">San Jose State University</a>.
       </p>
 
 
-      <p>
-        When not decoding the customer journey, you can find me sketching on {' '}
-        <a href="https://pin.it/4W1Rxtj">Pinterest</a> {' '} or writing technical blogs for {' '}
-        <a href="https://www.lambdatest.com">LambdaTest</a> {' '} and other freelance clients.
-      </p>
+      {/*<p>*/}
+      {/*  When not decoding the customer journey, you can find me sketching on {' '}*/}
+      {/*  <a href="https://pin.it/4W1Rxtj">Pinterest</a> {' '} or writing technical blogs for {' '}*/}
+      {/*  <a href="https://www.lambdatest.com">LambdaTest</a> {' '} and other freelance clients.*/}
+      {/*</p>*/}
     </>
   );
   const five = (

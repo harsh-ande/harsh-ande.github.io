@@ -1,27 +1,27 @@
 module.exports = {
-  email: 'chandrikadeb7@gmail.com',
+  email: 'harsh.ande@sjsu.edu',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/chandrikadeb7',
+      url: 'https://github.com/lazzypanda7',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/chandrikadeb7',
+      url: 'https://www.instagram.com/lazzypanda7',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/chandrikadeb7',
+      url: 'https://twitter.com/lazzypanda7',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/chandrika-deb',
+      url: 'https://www.linkedin.com/in/harsh-vardhan-ande',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/chandrikadeb7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/chandrikadeb7',
+    // },
   ],
 
   navLinks: [
