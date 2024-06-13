@@ -48,7 +48,7 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 300px;
+  max-width: 600px;
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Market Research', 'Data Analysis', 'Brand Management', 'Digital Marketing', 
+  const skills = ['Market Research', 'Data Analysis', 'Brand Management', 'Digital Marketing',
   'SPSS', 'Tableau', 'MS Office', 'Python'];
 
   return (
@@ -136,37 +136,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            With a core specialization in Marketing &amp; Strategy, I've orchestrated impactful
-             strategies in brand perceptions during my MBA summer internship for {' '}
-             <a href="https://www.tatastructura.com">Tata Structura</a> {' '} at{' '} 
-             <a href="https://drive.google.com/file/d/1xhGTFz7pe6kP7bZ4peDgJ7hlG630K8rz/view?usp=sharing">Tata Steel</a>.
+              I enjoy coding and have a strong fondness for solving technically challenging problems. I believe innovation often stems from the simplest of ideas, and hence I always strive for simplicity and elegance in all my solutions.
             </p>
-
             <p>
-            I also spearheaded employer branding initiatives for {' '}
-            <a href="https://drive.google.com/file/d/1w-uN9jb86pxFXPYMDu_78P-d1CZJAx3V/view?usp=sharing">
-              Aditya Birla Fashion and Retail</a>, {' '} resulting in a remarkable 37% surge in consumer engagement 
-              during my remote live project as part of my MBA journey.
+              I did my undergraduate in Computer Science from the esteemed {' '} <a href="https://www.bits-pilani.ac.in/goa/">
+              BITS Pilani Goa</a> {' '} in 2019, and developed a keen fascination for subjects like Systems, Databases, Machine Learning and Theoretical Computer Science. During my undergraduate studies, I also completed 2 internships at {' '} <a href="https://www.jio.com/">Reliance Jio</a> {' '} and {' '} <a href="https://www.dbs.com/in/index/default.page">Development Bank of Singapore</a> {' '} for a duration of 6 and 2 months respectively.
             </p>
-
             <p>
-            During my tenure at {' '} <a href="https://www.amdocs.com">Amdocs</a>, {' '} 
-            where I served as a Software Developer, I had the honor of being selected as one of 16 elite {' '} 
-            <a href="https://drive.google.com/file/d/16BGu5InZZDGCtoWas560ezwKsgVBKbI9/view?usp=sharing">Innovation Agents</a>.
+              After graduation, I worked at {' '} <a href="https://www.flipkart.com/">Flipkart</a>{' '} for 4.5 years in the Cloud Platform Engineering team. Among my most notable contributions, I automated operations such as hotstandby promotion, version upgrades, config param updates in MySQL database clusters, resulting in a saving of 400 man-hours weekly across 200+ teams in the organization.
             </p>
-
+            {/*<p>*/}
+            {/*  I'm currently in my second semester */}
+            {/*</p>*/}
             <p>
-            Moreover, my role as a {' '} <a href="https://drive.google.com/file/d/1iRTZfE7v5Y99BYZVxevaGBVtF90t-TOb/view?usp=sharing">
-              Placement Coordinator</a> {' '} at IIM Rohtak saw me cultivate over 30 new corporate relationships, culminating in a 
-              remarkable 42% boost in campus placements.
+            Outside academics and work, I like to read books, listen to podcasts, play the guitar, and cook. Few of my favourite books are Power of Now, Psychology of Money, and The Silent Patient.
             </p>
 
-            <p>My skills are not limited to this list!</p>
           </div>
 
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>
@@ -174,8 +161,8 @@ const About = () => {
             <StaticImage
               className="img"
               src="../../images/me.jpg"
-              width={500}
-              quality={95}
+              width={1000}
+              quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />

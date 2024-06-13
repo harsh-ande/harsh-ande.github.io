@@ -64,7 +64,7 @@ const Hero = () => {
 
       <p>
         I'm an alumnus of {' '} <a href="https://www.bits-pilani.ac.in/goa/">
-        BITS Pilani Goa</a> {' '} with 4+ years of experience at {' '} <a href="https://www.flipkart.com/">Flipkart</a> {' '}. I'm currently pursuing my master's degree in Software Engineering at {' '}
+        BITS Pilani Goa</a> {' '} with 4+ years of experience at {' '} <a href="https://www.flipkart.com/">Flipkart</a>{' '}. I'm currently pursuing my master's degree in Software Engineering at {' '}
         <a href="https://www.sjsu.edu/">San Jose State University</a>.
       </p>
 
