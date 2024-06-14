@@ -10,8 +10,8 @@ const StyledSkillsSection = styled.section`
 
   .inner {
     display: grid;
-    grid-template-columns: 3fr 5fr;
-    grid-gap: 80px;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 50px;
 
     @media (max-width: 768px) {
       display: block;
@@ -21,12 +21,15 @@ const StyledSkillsSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(6, minmax(140px, 200px));
+    grid-template-columns: repeat(5, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
+    @media (max-width: 800px) {
+      grid-template-columns: repeat(2, minmax(140px, 200px));
+    }
 
     li {
       position: relative;
