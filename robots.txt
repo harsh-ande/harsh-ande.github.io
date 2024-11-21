@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://lazzypanda7.github.io/sitemap-index.xml
-Host: https://lazzypanda7.github.io
+Sitemap: https://harsh-ande.github.io/sitemap-index.xml
+Host: https://harsh-ande.github.io
