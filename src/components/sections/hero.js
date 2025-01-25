@@ -82,7 +82,7 @@ const Hero = () => {
       href="https://drive.google.com/drive/folders/19_Zu-qe_q8Iszy6fpWRScSkCD7T4LEWO?usp=sharing"
       target="_blank"
       rel="noreferrer">
-      Check out my original work!
+      Check out my work samples!
     </a>
   );
 
