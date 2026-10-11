@@ -125,9 +125,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Market Research', 'Data Analysis', 'Brand Management', 'Digital Marketing',
-  'SPSS', 'Tableau', 'MS Office', 'Python'];
-
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -145,9 +142,11 @@ const About = () => {
             <p>
               After graduation, I worked at {' '} <a href="https://www.flipkart.com/">Flipkart</a>{' '} for 4.5 years in the Cloud Platform Engineering team. Among my most notable contributions, I automated operations such as hotstandby promotion, version upgrades, config param updates in MySQL database clusters, resulting in a saving of 400 man-hours weekly across 200+ teams in the organization.
             </p>
-            {/*<p>*/}
-            {/*  I'm currently in my second semester */}
-            {/*</p>*/}
+            <p>
+              In 2024, I moved to the US to pursue a Master's in Software Engineering at {' '}
+              <a href="https://www.sjsu.edu/">San Jose State University</a>, graduating in 2025. I'm now a Software Engineer at {' '}
+              <a href="https://www.adobe.com/">Adobe</a>, where I'm working on Apache Spark-based columnar data-mapping engine that powers record transformations in the Adobe Experience Platform's data-ingestion pipeline at global scale.
+            </p>
             <p>
             Outside academics and work, I like to read books, listen to podcasts, play the guitar, and cook. Few of my favourite books are Power of Now, Psychology of Money, and The Silent Patient.
             </p>

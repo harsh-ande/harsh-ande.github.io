@@ -55,7 +55,7 @@ const Hero = () => {
 
   const one = <h1>Hey there! My name is</h1>;
   const two = <h2 className="big-heading">Harsh Vardhan Ande</h2>;
-  const three = <h3 className="medium-heading">Software Engineer | B.E. CS | M.S. in SE (ongoing)</h3>;
+  const three = <h3 className="medium-heading">Software Engineer @ Adobe | M.S. in SE | B.E. CS </h3>;
   const four = (
     <>
       <p>
@@ -63,9 +63,10 @@ const Hero = () => {
       </p>
 
       <p>
-        I'm an alumnus of {' '} <a href="https://www.bits-pilani.ac.in/goa/">
-        BITS Pilani Goa</a> {' '} with 4+ years of experience working at {' '} <a href="https://www.flipkart.com/">Flipkart</a>{' '}. I'm currently pursuing my master's degree in Software Engineering at {' '}
-        <a href="https://www.sjsu.edu/">San Jose State University</a>.
+        I'm an alumnus of {' '} <a href="https://www.sjsu.edu/">
+        SJSU</a> {' '} and {' '} <a href="https://www.bits-pilani.ac.in/goa/">
+        BITS Pilani Goa</a> {' '} with 6+ years of experience working at {' '} <a href="https://www.adobe.com/">Adobe</a>{' '}
+        and {' '} <a href="https://www.flipkart.com/">Flipkart</a>{' '} specializing in Distributed Systems and AI Infrastructure.
       </p>
 
 
@@ -82,7 +83,7 @@ const Hero = () => {
       href="https://drive.google.com/drive/folders/19_Zu-qe_q8Iszy6fpWRScSkCD7T4LEWO?usp=sharing"
       target="_blank"
       rel="noreferrer">
-      Check out my work samples!
+      Check out my original work samples!
     </a>
   );
 

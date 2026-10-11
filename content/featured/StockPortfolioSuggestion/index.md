@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'Stock Portfolio Suggestion Enginer'
+title: 'Stock Portfolio Suggestion Engine'
 cover: './stock-portfolio-UI.png'
 github: 'https://github.com/harsh-ande/stock-portfolio-suggestion'
 #external: 'https://docs.google.com/presentation/d/1q-de17co3sbWG5tAgwR_O8jbMF_tyaIn_Sgyzeg9uuI/edit?usp=sharing'
