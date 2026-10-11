@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://harsh-ande.github.io/sitemap-index.xml
+Sitemap: https://harsh-ande.github.io/sitemap/sitemap-index.xml
 Host: https://harsh-ande.github.io
